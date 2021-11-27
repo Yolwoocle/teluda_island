@@ -8,7 +8,9 @@ function init_player()
 		x = 32, y = 24,
 		xs = 0, ys = 0,
 		anim = 0, left = false,
-		sped = 1, aspd = 0.25
+		sped = 1, aspd = 0.25,
+		health = 32, level = 1,
+		atk = 8, def = 8, status = "チpona"
 	}
 end
 
