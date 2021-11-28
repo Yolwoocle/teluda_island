@@ -62,7 +62,7 @@ function draw_battle()
  -- draw the background
  map(0,16,0,0)
  -- draw teluda
- spr(t() * 2 % 2 + 1, 24, 40)
+ spr(t()*2%2\1==1 and 42 or 40, 24, 32, 2, 2)
  -- draw enemy
  spr(5, 104, 40)
  -- hud/menus
